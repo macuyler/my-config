@@ -24,7 +24,7 @@ setup lazynvm $nvm_cmds
 
 
 # Java
-jenv_cmds=(jenv java)
+jenv_cmds=(jenv java ghidraRun)
 lazyjenv() {
 	unset -f $jenv_cmds
 	export JAVA_HOME=$(/usr/libexec/java_home)

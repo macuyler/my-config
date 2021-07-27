@@ -27,6 +27,7 @@ alias qd="source qd.sh"
 alias tm="tmux new -s '?' || tmux"
 TREMOTE="-f ~/.tmux.remote.conf"
 alias tmr="tmux $TREMOTE new -s '?' || tmux $TREMOTE"
+alias ghidra="ghidraRun"
 
 [ -d "${HOME}/ghidra_scripts" ] && rmdir ~/ghidra_scripts
 
